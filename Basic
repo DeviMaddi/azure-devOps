@@ -1,0 +1,51 @@
+Why do we use DevOps ?
+DevOps is used to streamline and improve collaboration between software development(Dev) and IT operations (Ops) teams.
+It focuses on automating releases, improving efficeincy, ensuring faster and more reliable releases.
+- DevOps automates many steps in software development and deployment process allowing teams to release updates more quickly and frequently.
+- Automation and continous testing in devops catch errors easily and improves the quality of software.
+
+DevOps tools - docker, kubernetes, ansible, github, jenkins.
+
+Continuous Integration (CI): A DevOps practice where developers frequently merge their code changes into a central repository,
+followed by automated builds and tests to detect issues early, ensuring that the integrated code is always in a functional state.
+
+
+Continuous Deployment (CD): An extension of Continuous Delivery where code changes are automatically 
+deployed to production after passing all automated tests, without any manual intervention.
+
+Azure Pipelines is a service that helps in automating the build and deployment processes. 
+It supports continuous integration and continuous deployment (CI/CD) to build, test, and deploy code to any platform, ensuring faster and more reliable software releases.
+
+Azure Boards is a tool within Microsoft's Azure DevOps platform that helps teams plan, track, and manage work across software projects. 
+- visualize project health, tracking bugs, supports for sprint planning, tracking progress, proirtising important lists.
+
+Pull Request - it is a method where Team members can then review the code, suggest changes, and approve the changes before they are merged into the main codebase.
+
+Phases involved in devops:
+1. Plan
+2. Develop
+3. build
+4. test
+5. integrate 
+6. deploy
+7. operate
+8. monitor
+
+
+Azure Boards: It plans and tracks work items.
+Azure Repos: It manages source code using version control.
+Azure Pipelines: It builds, test, and deploy code.
+
+
+Why prefer devops over traditional software development.
+- Devops automates many manual processes,allowing quicker software release and updates compared to,  traditional methods which often has long, rigid releases.
+- Devops practices like ci and cd allow for automating testing, feedback and improvement where as traditional method often wait till development for testing and feedback.
+
+
+We use Azure repos, to track changes for the code, facilitate coordination between teams and collaborate on changes for future use.
+
+A Git repository stores a project's files and keeps a record of all the changes made to those files over time.
+It helps track changes, so you can see who made what changes and when, making it easier to manage different versions of the project.
+
+Git status command displays the current state of the repository in Git. 
+It provides information about which files have been modified, which are staged for the next commit, and which are untracked
